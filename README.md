@@ -1,4 +1,7 @@
-This repositary contains the framework of 
+# Nginx App Protect - WAF policy template
+
+This repositary, done by Jeppe Koefoed (F5 SE mangager), contains the framework of
+
 1. Storing all configuration elements in git (this folder)
 2. When changing files a pipeline will run doing the following
 a. Use a gitlab-runner to pull the folder, copy the license from CICD variables, build image, push to registry
