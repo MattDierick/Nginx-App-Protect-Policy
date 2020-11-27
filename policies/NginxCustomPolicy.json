@@ -1,0 +1,114 @@
+{
+    "policy": {
+        "name": "NGINX_Base_with_modifications",
+        "template": { "name": "POLICY_TEMPLATE_NGINX_BASE" },
+        "applicationLanguage": "utf-8",
+        "enforcementMode": "blocking",
+        "blocking-settings": {
+           "violations": [
+               {
+                   "name": "VIOL_RATING_THREAT",
+                   "alarm": true,
+                   "block": true
+               },
+               {
+                   "name": "VIOL_RATING_NEED_EXAMINATION",
+                   "alarm": false,
+                   "block": false
+               },
+               {
+                   "name": "VIOL_THREAT_CAMPAIGN",
+                   "alarm": true,
+                   "block": true
+               },
+               {
+                   "name": "VIOL_FILETYPE",
+                   "alarm": true,
+                   "block": true
+               },
+               {
+                    "name": "VIOL_EVASION",
+                    "alarm": true,
+                    "block": true
+                },
+                {
+                    "name": "VIOL_METHOD",
+                    "alarm": true,
+                    "block": true
+                },
+                {
+                    "name": "VIOL_HTTP_PROTOCOL",
+                    "alarm": false,
+                    "block": false
+                },
+                {
+                    "name": "VIOL_DATA_GUARD",
+                    "alarm": false,
+                    "block": false
+                },
+                {
+                    "name": "VIOL_HTTP_RESPONSE_STATUS",
+                    "alarm": true,
+                    "block": true
+                },
+                {
+                    "name": "VIOL_BLACKLISTED_IP",
+                    "alarm": true,
+                    "block": true
+                }
+           ],
+            "httpProtocolReference": {
+                "link": "file:///etc/nginx/http-protocols.json"
+            },
+            "evasionsReference": {
+                "link": "file:///etc/nginx/evasions.json"
+            }
+        },
+        "general": {
+            "allowedResponseCodes": [
+                400,
+                401,
+                403,
+                404,
+                502
+            ],
+            "customXffHeaders": [
+                "X-Forwarded-For"
+            ],
+            "trustXff": true,
+            "maximumHttpHeaderLength": 4096
+        },
+        "signatureSetReference": {
+            "link": "file:///etc/nginx/signature-sets.json"
+        },
+        "servertechnologiesReference": {
+            "link": "file:///etc/nginx/server-technologies.json"
+        },
+        "botDefenseReference": {
+            "link": "file:///etc/nginx/bot-defense.json"
+        },
+        "filetypeReference": {
+         "link": "file:///etc/nginx/filetypes.json"
+        },
+        "methodReference": {
+            "link": "file:///etc/nginx/methods.json"
+        },
+        "responsePageReference": {
+            "link": "file:///etc/nginx/response-pages.json"
+        },
+        "whitelistIpReference": {
+            "link": "file:///etc/nginx/whitelist-ips.json"
+        },
+        "data-guard": {
+            "enabled": false,
+            "maskData": false,
+            "creditCardNumbers": false,
+            "usSocialSecurityNumbers": false,
+            "enforcementMode": "ignore-urls-in-list",
+            "enforcementUrls": []
+        }
+    },
+    "modificationsReference": {
+        "link": "file:///etc/nginx/modifications.json"
+    }
+}

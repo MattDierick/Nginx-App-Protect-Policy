@@ -1,0 +1,44 @@
+{
+    "modifications": [
+        {
+            "entityChanges": {
+                "enabled": false
+            },
+            "entity": {
+                "signatureId": 200015020
+            },
+            "entityType": "signature",
+            "action": "add-or-update"
+        },
+        {
+            "entityChanges": {
+                "enabled": false
+            },
+            "entity": {
+                "signatureId": 200015066
+            },
+            "entityType": "signature",
+            "action": "add-or-update"
+        },
+        {
+            "entityChanges": {
+                "enabled": false
+            },
+            "entity": {
+                "signatureId": 200015011
+            },
+            "entityType": "signature",
+            "action": "add-or-update"
+        },
+        {
+            "entityChanges": {
+                "enabled": false
+            },
+            "entity": {
+                "signatureId": 200015013
+            },
+            "entityType": "signature",
+            "action": "add-or-update"
+        }
+    ]
+}

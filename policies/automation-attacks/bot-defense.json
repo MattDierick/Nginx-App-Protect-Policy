@@ -1,0 +1,21 @@
+{
+    "settings": {
+        "isEnabled": true
+    },
+    "mitigations": {
+        "classes": [
+            {
+                "name": "trusted-bot",
+                "action": "alarm"
+            },
+            {
+                "name": "untrusted-bot",
+                "action": "alarm"
+            },
+            {
+                "name": "malicious-bot",
+                "action": "block"
+            }
+        ]
+    }
+}

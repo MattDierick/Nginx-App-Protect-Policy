@@ -1,0 +1,11 @@
+[
+    {
+        "name": "GET"
+    },
+    {
+        "name": "POST"
+    },
+    {
+        "name": "HEAD"
+    }
+]

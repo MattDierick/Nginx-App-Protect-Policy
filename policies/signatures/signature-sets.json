@@ -1,0 +1,132 @@
+[
+    {
+        "name": "Command Execution Signatures",
+        "block": false,
+        "alarm": false
+    },
+    {
+        "name": "Directory Indexing Signatures",
+        "block": false,
+        "alarm": false
+    },
+    {
+        "name": "Information Leakage Signatures",
+        "block": false,
+        "alarm": false
+    },
+    {
+        "name": "OS Command Injection Signatures",
+        "block": false,
+        "alarm": false
+    },
+    {
+        "name": "Path Traversal Signatures",
+        "block": false,
+        "alarm": false
+    },
+    {
+        "name": "Predictable Resource Location Signatures",
+        "block": false,
+        "alarm": false
+    },
+    {
+        "name": "Remote File Include Signatures",
+        "block": false,
+        "alarm": false
+    },
+    {
+        "name": "SQL Injection Signatures",
+        "block": false,
+        "alarm": false
+    },
+    {
+        "name": "Authentication/Authorization Attack Signatures",
+        "block": false,
+        "alarm": false
+    },
+    {
+        "name": "XML External Entity (XXE) Signatures",
+        "block": false,
+        "alarm": false
+    },
+    {
+        "name": "XPath Injection Signatures",
+        "block": false,
+        "alarm": false
+    },
+    {
+        "name": "Buffer Overflow Signatures",
+        "block": false,
+        "alarm": false
+    },
+    {
+        "name": "Denial of Service Signatures",
+        "block": false,
+        "alarm": false
+    },
+    {
+        "name": "Vulnerability Scanner Signatures",
+        "block": false,
+        "alarm": false
+    },
+    {
+        "name": "High Accuracy Signatures",
+        "block": false,
+        "alarm": false
+    },
+    {
+        "name": "All CVE Signatures",
+        "block": false,
+        "alarm": false
+    },
+    {
+        "name": "All Response Signatures",
+        "block": false,
+        "alarm": false
+    },
+    {
+        "name": "All Signatures",
+        "block": false,
+        "alarm": false
+    },
+    {
+        "name": "Generic Detection Signatures",
+        "block": false,
+        "alarm": false
+    },
+    {
+        "name": "Generic Detection Signatures (High Accuracy)",
+        "block": false,
+        "alarm": false
+    },
+    {
+        "name": "Generic Detection Signatures (High/Medium Accuracy)",
+        "block": false,
+        "alarm": false
+    },
+    {
+        "name": "High Accuracy Signatures",
+        "block": false,
+        "alarm": false
+    },
+    {
+        "name": "Low Accuracy Signatures",
+        "block": false,
+        "alarm": false
+    },
+    {
+        "name": "Medium Accuracy Signatures",
+        "block": false,
+        "alarm": false
+    },
+    {
+        "name": "OWA Signatures",
+        "block": false,
+        "alarm": false
+    },
+    {
+        "name": "WebSphere signatures",
+        "block": false,
+        "alarm": false
+    }
+]
